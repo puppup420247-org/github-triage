@@ -2,10 +2,9 @@
   "name": "github-triage",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for github-triage goes here",
-  "repository": "",
-  "license": "MIT",
-  "author": "",
+  "description": "The GitHub Triage tool was built to help keep tabs on issues across a wide range of GitHub repositories.",
+  "repository": "https://github.com/heroku/github-triage",
+  "author": "heroku-front-end@salesforce.com",
   "directories": {
     "doc": "doc",
     "test": "tests"
