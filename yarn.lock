@@ -764,6 +764,13 @@
   dependencies:
     "@glimmer/util" "^0.38.4"
 
+"@heroku/ember-malibu-icon@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@heroku/ember-malibu-icon/-/ember-malibu-icon-1.1.2.tgz#f007d25dbe39910b07d17188f9cfee0b4abb7edc"
+  integrity sha512-MgJydSO0f2eydufOf5GJhU8VvJAGL2OsutR2siXKxM9PQcTgkwWX5t5u4CVzj94qT/YdE079SMXRwJlJFjnpBQ==
+  dependencies:
+    ember-cli-babel "^7.4.3"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
