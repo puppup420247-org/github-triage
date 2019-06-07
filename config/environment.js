@@ -23,7 +23,7 @@ module.exports = function(environment) {
     },
 
     apollo: {
-      apiURL: 'https://api.github.com/graphql'
+      apiURL: process.env.API_URL || 'https://api.github.com/graphql'
     }
   };
 
