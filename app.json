@@ -1,18 +1,26 @@
 {
-  "addons": [
-
-   ],
   "buildpacks": [
     {
       "url": "https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/emberjs.tgz"
     }
   ],
-  "env": {
-  },
-  "formation": {
+  "environments": {
+    "test": {
+      "formation": {
+        "test": {
+          "size": "performance-m",
+          "quantity": 2
+        }
+      },
+      "scripts": {
+        "test": "yarn run ember exam --split=$CI_NODE_TOTAL --partition=$(($CI_NODE_INDEX + 1))"
+      },
+      "buildpacks": [
+        { "url": "https://github.com/heroku/heroku-buildpack-google-chrome" },
+        { "url": "heroku/nodejs" }
+      ]
+    }
   },
   "name": "github-triage-tool",
-  "scripts": {
-  },
   "stack": "heroku-18"
 }
