@@ -1,6 +1,6 @@
 ## Why the change?
 
-<!-- Link to github issue(s), trello card(s), and/or write an explanation -->
+<!-- Link to github issue(s), GUS work item(s), and/or write an explanation -->
 
 ## What’s the plan?
 
