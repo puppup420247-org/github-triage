@@ -54,7 +54,8 @@
     "loader.js": "^4.7.0",
     "prettier": "^1.17.1",
     "pretty-quick": "^1.11.0",
-    "qunit-dom": "^0.8.4"
+    "qunit-dom": "^0.8.4",
+    "yarn": "1.16.0"
   },
   "engines": {
     "node": "10.x"
@@ -63,8 +64,5 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  },
-  "dependencies": {
-    "yarn": "1.16.0"
   }
 }
